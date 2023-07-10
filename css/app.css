@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 *,
@@ -15,6 +16,7 @@ a {
 
 body {
   font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
 }
 
 h1,
@@ -23,8 +25,11 @@ h3 {
   font-family: "Playfair Display", serif;
 }
 
+h3{
+  font-size: 3rem;
+}
 .contenedor {
-  max-width: 1200px;
+  max-width: 120rem;
   margin: 0 auto;
 }
 
@@ -38,9 +43,10 @@ img {
 }
 
 .nombre-sitio {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   text-align: center;
+  font-size: 4rem;
 }
 
 .nombre-sitio span {
@@ -53,8 +59,8 @@ img {
     border-width: 1px;*/
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .navegacion {
@@ -67,13 +73,13 @@ img {
 
 .hero {
   background-image: url(../img/principal.jpg);
-  height: 550px;
+  height: 55rem;
 }
 
 .listado-categorias {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 2rem;
 }
 
 .categorias h2 {
@@ -83,12 +89,12 @@ img {
 .categoria a {
   display: block;
   text-align: center;
-  padding: 20px;
-  font-size: 20px;
+  padding: 2rem;
+  font-size: 2rem;
 }
 
 .categoria a:hover {
   background-color: #037bc0;
   color: #fff;
-  border-radius: 0 0 10px 10px;
+ border-bottom-right-radius: 1rem;
 }
