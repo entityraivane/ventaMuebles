@@ -231,9 +231,20 @@ img {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
-.grid-footer  a {
+.grid-footer a {
   display: block;
 }
 footer p {
   text-align: center;
+}
+.contenido-nosotros {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 4rem;
+}
+.informacion-nosotros{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
