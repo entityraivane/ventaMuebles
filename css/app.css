@@ -47,6 +47,9 @@ img {
 .text-center {
   text-align: center;
 }
+.max-width-30{
+  max-width: 30rem;
+}
 .contenedor-navegacion {
   border-top: 1px solid #e1e1e1;
 }
@@ -247,4 +250,43 @@ footer p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.contenedor-blogs{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.entrada{
+  border-bottom: 2px solid #e1e1e1;
+  padding-bottom: 4rem;
+  margin-bottom: 2rem;
+}
+.entrada:last-of-type{
+  border: none;
+}
+.entrada-meta{
+  display: flex;
+  justify-content: space-between;
+}
+.entrada-meta p{
+font-weight: bold;
+}
+.entrada-meta span{
+color: #037bc0;
+}
+.contenido-entrada-blog{
+  width: 60rem;
+  margin: 0 auto;
+}
+.galeria{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+}
+.galeria img{
+  height: 40rem;
+  width: 40rem;
+  object-fit: cover;
 }
